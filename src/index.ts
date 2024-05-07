@@ -3,7 +3,18 @@ import { resolveDomain } from './utils/resolveDomain';
 import { getMetadata } from './utils/getMetadata';
 
 const ZNSConnectClass = class {
-  async resolveAddress(tld: string, address: string): Promise<any> {
+  async resolveAddress(
+    tld:
+      | 'nft'
+      | 'xterio'
+      | 'honey'
+      | 'cz'
+      | 'xlayer'
+      | 'tabi'
+      | 'taiko'
+      | 'scroll',
+    address: `0x${string}`
+  ): Promise<any> {
     try {
       return await resolveAddress(tld, address);
     } catch (error) {
