@@ -1,6 +1,6 @@
 {
   "name": "zns-sdk",
-  "version": "0.0.1",
+  "version": "0.0.1-2",
   "description": "SDK for lookup up and interacting with ZNS domains",
   "main": "./lib/index.js",
   "files": [
@@ -19,13 +19,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryansonshine/zns-sdk.git"
+    "url": "git+https://github.com/Inevitable-Design/zns-sdk.git"
   },
   "license": "MIT",
   "author": {
     "name": "Ekansh",
-    "email": "ryansonshine@users.noreply.github.com",
-    "url": "https://github.com/ryansonshine"
+    "email": "Inevitable-Design@users.noreply.github.com",
+    "url": "https://github.com/Inevitable-Design"
   },
   "engines": {
     "node": ">=12.0"
@@ -42,9 +42,9 @@
     "codecov"
   ],
   "bugs": {
-    "url": "https://github.com/ryansonshine/zns-sdk/issues"
+    "url": "https://github.com/Inevitable-Design/zns-sdk/issues"
   },
-  "homepage": "https://github.com/ryansonshine/zns-sdk#readme",
+  "homepage": "https://github.com/Inevitable-Design/zns-sdk#readme",
   "devDependencies": {
     "@ryansonshine/commitizen": "^4.2.8",
     "@ryansonshine/cz-conventional-changelog": "^3.3.4",
@@ -62,7 +62,6 @@
     "lint-staged": "^13.3.0",
     "prettier": "^2.8.8",
     "semantic-release": "^21.1.2",
-    "ts-jest": "^27.1.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   },
