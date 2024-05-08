@@ -1,6 +1,6 @@
 {
   "name": "zns-sdk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "SDK for lookup up and interacting with ZNS domains",
   "main": "./lib/index.js",
   "files": [
